@@ -2,4 +2,4 @@
 
 set -e
 
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+uvicorn main:app --proxy-headers --host 0.0.0.0 --port 80
